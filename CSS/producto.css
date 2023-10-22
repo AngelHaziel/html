@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+body{
+    background-image: url("../IMG/fondo_de_pantalla1.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.cuerpo
+{
+    margin-top: 3em;
+    height: auto;
+    margin-left: 10%;
+    width: 80%;
+    background-color: white;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em 0.5em black;
+}
+.cont_index
+{
+   display: flex;
+}
+
+.cont_index h2{
+    font-size: 2em;
+    margin-top: 1em;
+}
+.cont_index p{
+    margin-top: 1em;
+    font-size: 1.3em;
+}
+.tittle{
+    margin-left: 3em;
+}
+.icon
+{
+    height: 2em;
+    width: 2em;
+    margin-bottom: -0.8em;
+    margin-right: 0.5em;
+}
+form{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap:wrap-reverse ;
+    text-align: center;
+    padding: 1em 1em;
+    box-shadow: 0 1em 2em rgb(36, 36, 36);
+    border-radius: 1em;
+    margin-bottom: 3em;
+}
+form label{
+    margin-bottom: 2em;
+}
+form label input{
+    outline: none;
+    border: none;
+    color: black;
+    border-bottom: solid 0.2em rgb(187, 15, 15);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.5em;
+    padding: 0 0.2em;
+    width: 32.5em;
+}
+form .link{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+form button{
+    border: none;
+    color: white;
+    background-color: rgb(187, 15, 15);
+    font-size: 1.5em;
+    height: 2em;
+    width: 5em;
+    border-radius: 1em;
+}
+.cont_cards{
+    display: flex;
+}
+.caja{
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 1em;
+    border-bottom: solid 0.2em rgb(187, 15, 15);
+    font-family: 'Ubuntu Condensed', sans-serif;   
+}
+.button{
+    border: none;
+    color: white;
+    background-color: rgb(187, 15, 15);
+    text-decoration: none;
+    padding-top:0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 1em;
+}
+.cont_carta
+{
+    margin-left: 2em;
+    height: 25em;
+    width: 15em;
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em 0.5em black;
+}
+.cont_img{
+    display: flex;
+    height: 15em;
+    width: 15em;
+    background-color: rgb(199, 45, 45);
+    border: 0.2em solid;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.cont_img img
+{
+    width: 90%;
+    height: 90%;
+    margin-top: 0.75em;
+    margin-left: 0.75em;
+    border-radius: 1em;
+}
+.cont_texto_c
+{
+    width: 15em;
+    height: 10em;
+    background-color: white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border: 0.2em solid;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+}

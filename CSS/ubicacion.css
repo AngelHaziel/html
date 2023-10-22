@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+body{
+    background-image: url("../IMG/fondo_de_pantalla1.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+.cuerpo
+{   
+    margin-top: 3em;
+    height: auto;
+    margin-left: 10%;
+    width: 80%;
+    background-color: white;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em 0.5em black;
+}
+.cont_index
+{
+   display: flex;
+}
+
+.cont_index h2{
+    font-size: 2em;
+    margin-top: 1em;
+}
+.cont_index p{
+    margin-top: 1em;
+    font-size: 1.3em;
+}
+#img1{
+    margin-top: 3.5em;
+    height: 18em;
+    margin-left: 1em;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.2em 1em 0.5em rgb(36, 36, 36);
+}
+#img2{
+    height: 25em;
+    margin-right: 1em;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.2em 1em 0.5em rgb(36, 36, 36);
+}
+#pokeball{
+    display: flex;
+    width: 2em;
+    height: 2em;
+    margin-top: 2.2em;
+    margin-left: 0.4em;
+}

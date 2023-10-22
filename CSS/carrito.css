@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+body {
+    background-image: url("../IMG/fondo_de_pantalla1.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat-y;
+    text-align: center; /* Centra el texto en el cuerpo */
+}
+
+.icon {
+    height: 2.5em;
+    margin-top: -0.5em;
+}
+
+.cuerpo {
+    margin: 3em auto; /* Centra el contenido horizontalmente */
+    width: 80%;
+    background-color: white;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em 0.5em black;
+    text-align: left; /* Alineación del texto a la izquierda en el contenido grande */
+}
+
+.cont_index {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont_index h2 {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.cont_index p {
+    margin-top: 1em;
+    font-size: 1.3em;
+}
+
+.tabla {
+    border: 2px solid #a52a2a;
+    border-collapse: collapse;
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+}
+
+.tabla th, .tabla td {
+    padding: 0.5em;
+    border: 1px solid #a52a2a;
+    text-align: left;
+    vertical-align: top;
+}
+
+.tabla th {
+    background-color: #a52a2a;
+    color: white;
+    font-weight: bold;
+}
+.button{
+    border: none;
+    color: white;
+    background-color: rgb(187, 15, 15);
+    text-decoration: none;
+    padding-top:0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 1em;
+}

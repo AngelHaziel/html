@@ -1,0 +1,72 @@
+<?php 
+$dato = $_GET["dato"];
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/barra_nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <title>PokeGarden</title>
+</head>
+<body>
+    <header class="header_index">
+        <nav class="nav">
+            <div class="logo"><a href="index.php?dato=<?php echo $dato ?>">PokeGarden</a></div>
+            <ul class="menu">
+                <li><a href="ubicacion.php?dato=<?php echo $dato ?>">Ubicación</a></li>
+                <li><a href="producto.php?dato=<?php echo $dato ?>">Productos</a></li>
+                <li><a href="carrito.php?dato=<?php echo $dato ?>">Carrito</a></li>
+                <li><a href="#?dato=<?php echo $dato ?>">Ver Compras</a></li>
+                <li><a href="../index.html">Cerrar Sesión</a></li>
+                <li><img class="icon" src="../IMG/icon/usuario.png" alt=""></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="cuerpo">
+        <div class="cont_index">
+            <div>
+                
+                <h2>Misión</h2>
+                <p>
+                    PokéGarden fue creado en respuesta a las solicitudes de nuestros los “fans” de la afamada franquicia de “Pokémon” que a día de hoy cuenta con más de 1,000 criaturas y ya más de 9 generaciones en su haber. Por tanto, en PokéGarden tenemos la misión de:
+                </p>
+                <p class="frase">
+                    "Ofrecer a nuestros clientes multitud de productos de buena calidad y precio de la franquicia más conocida del mundo. "
+                </p>
+                </div>
+                <div>
+                    <img id="img1" src="../IMG/index/img1.jpg" >
+                </div>
+        </div>
+        
+        <div class="cont_index">
+            <div>
+                <img id="img2" src="../IMG/index/img2.jpg" >
+            </div>
+            <div>
+                <h2>Visión</h2>
+            <p> 
+                PokéGarden empieza como una pequeña tienda online con una única sucursal en la localidad de Tonalá, Jalisco, México. Sin embargo, aspiramos a expandirnos por todo el país ofreciendo nuestros servicios a todas aquellas personas que deseen conseguir cartas coleccionables, peluches, fundas, imágenes, decoraciones, entre muchos otros productos de los famosos “monstruos de bolsillo”. Por lo que podríamos decir que en PokeGarden:
+            </p>
+            <p class="frase">
+                " Tenemos la intención de expandirnos por todas partes de México para ofrecer nuestros productos a todos aquellos que los deseen. "
+            </p>
+            </div>
+        </div>
+        <div class="cont_index">
+            <div>
+            <h2>¿Quiénes somos?</h2>
+            <p>
+                En PokéGarden ofrecemos una amplia gama de productos a la venta. Tenemos un mercado de compra de packs de mejora para el juego de cartas de pokemon (TCG Pokemon), donde también encontraras toda clase de monedas, protectores, sobres y un mercado de cartas individuales para aquellas personas que busquen completar sus “decks”. Además de esto, en PokéGarden podrás encontrar toda clase de peluches, tazas, artículos escolares y decorativos, entre muchos otros productos.
+            </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

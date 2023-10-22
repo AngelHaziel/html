@@ -1,0 +1,44 @@
+<?php 
+$dato = $_GET["dato"];
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/ubicacion.css">
+    <link rel="stylesheet" href="../CSS/barra_nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <title>Ubicación</title>
+</head>
+<body>
+<header class="header_index">
+        <nav class="nav">
+            <div class="logo"><a href="index.php?dato=<?php echo $dato ?>">PokeGarden</a></div>
+            <ul class="menu">
+                <li><a href="ubicacion.php?dato=<?php echo $dato ?>">Ubicación</a></li>
+                <li><a href="producto.php?dato=<?php echo $dato ?>">Productos</a></li>
+                <li><a href="carrito.php?dato=<?php echo $dato ?>">Carrito</a></li>
+                <li><a href="#?dato=<?php echo $dato ?>">Ver Compras</a></li>
+                <li><a href="../index.html">Cerrar Sesión</a></li>
+                <li><img style="height: 2.5em; margin-top: -0.5em;" src="../IMG/icon/usuario.png" alt=""></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="cuerpo">
+        <div class="cont_index">
+            <h2>Nos ubicamos en: </h2>
+            <img id="pokeball" src="../IMG/icon/Poké_Ball_icon.png">
+        </div>
+        <div id="text_ubi">
+            <p>Paseo Santa Rosalia sur, interior 11A, Exterior 331, Infonavit la Soledad, Tonala, Jalisco, México</p>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.868791193025!2d-103.2839465500009!3d20.634204306439695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b39a426ef459%3A0xb19ac8464bcd2dd6!2sCto%20Sta%20Rosal%C3%ADa%20Sur%2C%20Infonavit%20La%20Soledad%2C%2045403%20Tonal%C3%A1%2C%20Jal.!5e0!3m2!1ses!2smx!4v1678851249248!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+</body>
+</html>
