@@ -12,6 +12,9 @@ $resultado = $query->fetchAll(PDO::FETCH_ASSOC);
 $sql = $conn->prepare("SELECT * FROM usuario WHERE id=$dato");
 $sql->execute();
 $res = $sql->fetchAll(PDO::FETCH_ASSOC);
+foreach($res as $row){
+$nombre = $row['nombre'];
+} 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -34,7 +37,7 @@ $res = $sql->fetchAll(PDO::FETCH_ASSOC);
                 <li><a href="ubicacion.php?dato=<?php echo $dato ?>">Ubicación</a></li>
                 <li><a href="producto.php?dato=<?php echo $dato ?>">Productos</a></li>
                 <li><a href="carrito.php?dato=<?php echo $dato ?>">Carrito</a></li>
-                <li><a href="#?dato=<?php echo $dato ?>">Ver Compras</a></li>
+                <li><a href="192.168.73.36:8080?dato=<?php echo $dato ?>&nombre=<?php echo $nombre ?>">Ver Compras</a></li>
                 <li><a href="../index.html">Cerrar Sesión</a></li>
                 <li><img class="icon" src="../IMG/icon/usuario.png" alt=""></li>
             </ul>
